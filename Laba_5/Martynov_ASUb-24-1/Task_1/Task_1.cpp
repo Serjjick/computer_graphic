@@ -106,7 +106,7 @@ int main() {
 	**/
 
 	Shader myShader("ver_shader.glsl", "frag_shader.glsl");
-	Model ourRTC("Cube.obj");
+	Model ourRTC("model.obj");
 
 	glfwSetFramebufferSizeCallback(window, framebufer_size_callback);
 	glfwSetCursorPosCallback(window, mouse_callback);
